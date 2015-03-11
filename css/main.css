@@ -1,0 +1,39 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: rgba(135, 220, 255, 1);
+	text-shadow: none;
+}
+
+/* Nav Styles */
+.navbar-nav{
+	float: right;
+}
+
+.navbar{
+	background-color: rgba(34, 34, 34, .8);
+}
+
+/* Slider Style */
+.carouselArrow{
+  	background-image: url('../img/icons/prevAndNext.png');
+  	width: 45px;
+ 	height: 43px;
+  	margin-top: -15px;
+  	font-size: 30px;
+  	margin-left: -15px;
+  	left: 50%;
+  	position: absolute;
+  	top: 50%;
+  	z-index: 5;
+  	display: inline-block;
+  	background-size: 89px;
+}
+
+.nextArrow{
+  	background-position-x: 45px;
+}
